@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Local Weather</title>
+    <meta name="description" content="Local Weather">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/weather.css">
+  </head>
+  <body>
+    <section class="wrapper cloud">
+      <h1>Local Weather</h1>
+      <div id="error"></div>
+      <div id="date"></div>
+      <div id="time"></div>
+      <div id="location"></div>
+      <div class="data">
+          <div id="current-temp"></div>
+          <a href="#" id="convert-temp" title="Click to convert to Fahrenheit">C</a>
+          <div id="description"></div>
+          <div id="icon"></div>
+          <div id="humidity"></div>
+          <div id="sunrise"></div>
+          <div id="sunset"></div>
+      </div><!-- end data -->
+    </section><!-- end wrapper cloud -->
+    <footer>
+      <p>Weather delivered by: <a href="http://openweathermap.org/api" target="_blank">Open Weather Map</a></p>
+      <p>© 2016 <a href="http://www.mdhcodes.com/">mdhCodes</a> ♥</p>
+    </footer>
+    <script src="weather.js"></script>
+  </body>
+</html>
